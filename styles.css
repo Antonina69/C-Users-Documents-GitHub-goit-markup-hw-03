@@ -33,8 +33,6 @@ text-decoration: none;
 .container {
         
         width: 1200px;
-        padding-top: 94px;
-        padding-bottom: 94px;
         justify-content: center;
         margin-left: auto;
         margin-right: auto;
@@ -277,6 +275,7 @@ margin-right:0;
 }
 .title-section-what {
 margin-bottom: 50px;
+padding-top: 0;
 }
 .ul-section-what {
         display: flex;
