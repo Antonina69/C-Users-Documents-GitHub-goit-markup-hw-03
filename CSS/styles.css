@@ -41,13 +41,11 @@ text-decoration: none;
         
         width: 1200px;
         justify-content: center;
-        margin: 0, auto;
+        margin: 0 auto;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-  justify-content: center;
-        margin: 0, auto;
 }
 h1,
 h2,
@@ -177,6 +175,8 @@ background-color: var(--color-button);
         height: 600px;
         text-align: center;
         padding: 200px;
+        margin-left: auto;
+        margin-right: auto;
 background-color: var(--color-bg-dark);
 }
 .hero-title {
