@@ -40,14 +40,12 @@ text-decoration: none;
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
-justify-content: center;
 }
 h1,
 h2,
 h3,
 h4,
 ul, 
-li,
 p {
         margin-top: 0;
         margin-bottom: 0;
@@ -166,8 +164,11 @@ background-color: var(--color-button);
 
 
 .hero-section {
+        width: 1600px;
+        height: 600px;
         text-align: center;
         align-self: center;
+        padding: 0;
 background-color: var(--color-bg-dark);
 }
 .hero-title {
@@ -272,21 +273,21 @@ margin-right:0;
         letter-spacing: 0.03em;
         text-align: center;
 }
-.title-section-what {
+.title-section-directions {
 margin-bottom: 50px;
 padding-top: 0;
 }
-.ul-section-what {
+.ul-section-directions {
         display: flex;
         margin-left: auto;
         margin-right: auto;
         justify-content: center;
 }
-.li-section-what {
+.li-section-directions {
         margin-right: 30px;
         margin-bottom: 10px;
 }
-.li-section-what:last-child {
+.li-section-directions:last-child {
         margin-right: 0;
 }
 /* Team section */
