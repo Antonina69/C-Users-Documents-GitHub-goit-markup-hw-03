@@ -10,6 +10,11 @@
     --color-button: #188CE8;
     --color-bg-light: #F5F4FA;
 }
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -24,7 +29,7 @@ text-decoration: none;
 
 }
 .page-header {
-        border: 1px solid #ECECEC;
+        border-bottom: 1px solid #ECECEC;
 }
 .container-page-header {
         display: flex;
@@ -34,12 +39,12 @@ text-decoration: none;
         
         width: 1200px;
         justify-content: center;
-        margin-left: auto;
-        margin-right: auto;
+        margin: 0, auto;
 }
 .section {
   padding-top: 94px;
   padding-bottom: 94px;
+  margin: 0, auto;
 }
 h1,
 h2,
