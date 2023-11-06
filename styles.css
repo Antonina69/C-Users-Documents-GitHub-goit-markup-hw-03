@@ -282,9 +282,9 @@ margin-right:0;
         letter-spacing: 0.03em;
         text-align: center;
 }
-.title-section-directions {
-margin-bottom: 50px;
-padding-top: 0;
+.section-directions {
+        padding-top: 0;
+        padding-bottom: 94px;
 }
 .ul-section-directions {
         display: flex;
