@@ -210,13 +210,13 @@ color: var(--color-light);
 }
 .li-projects {
         width: 370px;
-        margin-right: 30 px;
+        margin-right: 30px;
 
 }
 .li-projects:nth-child(3n) {
         margin-right: 0;
 }
-.li-projects:nth-last-child(-n+3) {
+.li-projects:nth-child(n+7) {
         margin-bottom: 0;
 }
 
