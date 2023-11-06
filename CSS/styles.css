@@ -176,7 +176,7 @@ background-color: var(--color-button);
         width: 1600px;
         height: 600px;
         text-align: center;
-        padding: 0;
+        padding: 200px;
 background-color: var(--color-bg-dark);
 }
 .hero-title {
