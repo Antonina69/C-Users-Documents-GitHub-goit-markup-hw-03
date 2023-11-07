@@ -32,18 +32,21 @@ text-decoration: none;
 .page-header {
         border-bottom: 1px solid #ECECEC;
 }
-.container-page-header {
+.page-header .container {
         display: flex;
         align-items: center;
-        height: 80px;
+}
+.address-link:focus {
+        display: flex;
+        align-items: center;
 }
 .container {
         
         width: 1200px;
-        justify-content: center;
         margin: 0 auto;
+        padding: 0 15px;
 }
-.section {
+section {
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -62,6 +65,7 @@ ul {
 /* Header */
 .header-nav {
 display: flex;
+align-items: center;
 }
 .header-nav-ul {
         display: flex;
@@ -78,7 +82,6 @@ margin-right:0;
 
 
 .header-logo {
-        margin-left: 215px;
         margin-right: 93px;
         font-family: 'Raleway', sans-serif;
         font-size: 26px;
@@ -95,6 +98,7 @@ color: var(--color-brand);
 
 .header-link {
         display: block;
+        padding: 32px 0;
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
@@ -106,7 +110,7 @@ color: var(--color-brand);
  {
 color: var(--color-link);
 }
-.header-link-current {
+.current {
         font-weight: 500;
         line-height: 1.14;
         letter-spacing: 0.02em;
@@ -126,6 +130,7 @@ align-items: center;
         margin-right: 0;
 }
 .contacts-link {
+        padding: 32px 0;
         font-size: 14px;
         font-weight: 500;
         line-height: 1.14;
@@ -177,21 +182,26 @@ background-color: var(--color-button);
         padding: 200px;
         margin-left: auto;
         margin-right: auto;
-background-color: var(--color-bg-dark);
+       background-color: var(--color-bg-dark);
 }
+
 .hero-title {
         margin-bottom: 30px;
+        width: 696px;
         font-size: 44px;
         font-weight: 900;
         line-height: 1.36;
         text-align: center;
+        margin-left: auto;
+        margin-right: auto;
         text-transform: uppercase;
 color: var(--color-light);
 }
 .hero-button {
         display: inline-block;
         padding: 10px, 32px;
-        min-width: 216px;
+        min-width: 152px;
+        height: 30px;
         border-radius: 4px;
         font-size: 16px;
         font-weight: 700;
@@ -244,15 +254,26 @@ color: var(--color-light);
     color: var(--color-secondary);
 }
 /* Benefit section */
+.visually-hidden {
+        position: absolute;
+        width: 1px;
+        height: 1px;
+        margin: -1px;
+        border: 0;
+        padding: 0;
+
+        white-space: nowrap;
+        clip-path: inset(100%);
+        clip: rect(0 0 0 0);
+        overflow: hidden;
+}
 .ul-benefits {
         display: flex;
-        margin-right: auto;
-        margin-left: auto;
-        justify-content: center;
 
 }
 .benefits-items {
         margin-right: 30px;
+        width: 270px;
 }
 .benefits-items:last-child {
 margin-right:0;
@@ -282,22 +303,22 @@ margin-right:0;
         letter-spacing: 0.03em;
         text-align: center;
 }
-.section-directions {
+.directions {
         padding-top: 0;
         padding-bottom: 94px;
 }
 .ul-section-directions {
         display: flex;
-        margin-left: auto;
-        margin-right: auto;
-        justify-content: center;
+       
 }
 .li-section-directions {
         margin-right: 30px;
-        margin-bottom: 10px;
 }
 .li-section-directions:last-child {
         margin-right: 0;
+}
+img {
+        display: block;
 }
 /* Team section */
 .section-team {
@@ -305,9 +326,7 @@ margin-right:0;
 }
 .ul-section-team {
         display: flex;
-        margin-left: auto;
-                margin-right: auto;
-                justify-content: center;
+       
 }
 .li-section-team {
         margin-right: 30px;
@@ -333,13 +352,11 @@ margin-right:0;
     color: var(--color-secondary);
 }
 /* Footer */
-.footer-container {
-       padding-top: 60px;
-       padding-bottom: 60px; 
-       padding-left: 215px;
-}
+
 
 .footer {
+        padding-top: 60px;
+        padding-bottom: 60px;
         font-style: normal;
    background-color: var(--color-bg-dark);
 }
@@ -347,6 +364,7 @@ address {
 font-style: normal;
 }
 .footer-logo {
+       
    font-family: "Raleway", sans-serif;
         font-size: 26px;
                 font-weight: 700;
@@ -359,8 +377,13 @@ color: #FFF;
            
     color: var(--color-brand);
 }
+.ul-footer-link {
+        margin-top: 20px;
+}
 
 .address-link {
+        margin-top: 20px;
+        margin-bottom: 9px;
                 font-size: 14px;
                 font-weight: 400;
                 line-height: 1.71;
@@ -373,6 +396,7 @@ color: var(--color-light);
 color: var(--color-link);
 }
 .footer-link {
+        margin-bottom: 9px;
         font-size: 14px;
         font-weight: 400;
                 line-height: 1.71;
@@ -380,16 +404,11 @@ color: var(--color-link);
                 text-align: left;
 color: rgba(255, 255, 255, 0.60);
 }
+.footer-link:last-child {
+        margin-bottom: 0;
+}
 .footer-link:hover,
 .footer-link:focus {
 color: var(--color-link);
 }
-.li-footer-link {
-        margin-bottom: 9px;
-}
-.li-footer-link:last-child {
-        margin-bottom: 0;
-}
-.li-footer-link:first-child {
-        margin-top: 20px;
-}
+
