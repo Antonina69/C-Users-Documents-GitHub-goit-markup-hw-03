@@ -155,7 +155,7 @@ align-items: center;
         min-width: 73px;
         min-height: 38px;
         border-radius:  4px;
-        padding: 6px, 50px;
+        padding: 6px 50px;
         font-size: 16px;
         font-weight: 500;
         line-height: 1.625;
@@ -196,9 +196,8 @@ color: var(--color-light);
 }
 .hero-button {
         display: inline-block;
-        padding: 10px, 32px;
+        padding: 10px 32px;
         min-width: 152px;
-        height: 30px;
         border-radius: 4px;
         font-size: 16px;
         font-weight: 700;
