@@ -11,11 +11,7 @@
     --color-bg-light: #F5F4FA;
     --border-color: #EEEEEE;
 }
-*,
-*::before,
-*::after {
-  box-sizing: border-box;
-}
+
 body {
     font-family: "Roboto", sans-serif;
     font-size: 14px;
@@ -47,7 +43,7 @@ text-decoration: none;
         padding: 0 15px;
 }
 .section {
-       
+
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -176,7 +172,7 @@ background-color: var(--color-button);
 } 
 
 
-.hero-section {
+.hero {
         width: 1600px;
         height: 600px;
         text-align: center;
