@@ -219,6 +219,8 @@ color: var(--color-light);
 .ul-projects {
         display: flex;
         flex-wrap: wrap;
+        margin-left: auto;
+        margin-right: auto;
 
 }
 .li-projects {
@@ -342,8 +344,10 @@ img {
         font-weight: 500;
         line-height: 1.19;
         letter-spacing: 0.03em;
+        text-align: center;
 }
 .person-job {
+        text-align: center;
         margin-bottom: 30px;
         font-size: 16px;
         font-weight: 400px;
@@ -380,6 +384,9 @@ color: #FFF;
 .ul-footer-link {
         margin-top: 20px;
 }
+.li-footer-link:not(:last-child) {
+margin-bottom: 9px;
+}
 
 .address-link {
         margin-top: 20px;
@@ -396,7 +403,7 @@ color: var(--color-light);
 color: var(--color-link);
 }
 .footer-link {
-        margin-bottom: 9px;
+       
         font-size: 14px;
         font-weight: 400;
                 line-height: 1.71;
@@ -404,9 +411,7 @@ color: var(--color-link);
                 text-align: left;
 color: rgba(255, 255, 255, 0.60);
 }
-.footer-link:last-child {
-        margin-bottom: 0;
-}
+
 .footer-link:hover,
 .footer-link:focus {
 color: var(--color-link);
