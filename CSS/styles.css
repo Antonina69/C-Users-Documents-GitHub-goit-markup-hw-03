@@ -46,7 +46,8 @@ text-decoration: none;
         margin: 0 auto;
         padding: 0 15px;
 }
-section {
+.section {
+       
   padding-top: 94px;
   padding-bottom: 94px;
 }
@@ -319,7 +320,7 @@ margin-right:0;
 .li-section-directions:last-child {
         margin-right: 0;
 }
-img {
+.image {
         display: block;
 }
 /* Team section */
