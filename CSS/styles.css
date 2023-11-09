@@ -32,10 +32,7 @@ text-decoration: none;
         display: flex;
         align-items: center;
 }
-.address-link:focus {
-        display: flex;
-        align-items: center;
-}
+
 .container {
         
         width: 1200px;
@@ -120,8 +117,8 @@ color: var(--color-link);
         align-items: center;
 }
 .li-contacts-link {
-margin-right: 50px;
-align-items: center;
+       margin-right: 50px;
+       align-items: center;
 }
 .li-contacts-link:last-child {
         margin-right: 0;
@@ -144,13 +141,10 @@ align-items: center;
 /* Hero section */
 .ul-button {
         display: flex;
-       
-       
         justify-content: center;
 }
 .button {
         display: inline-block;
-        
         min-width: 73px;
         min-height: 38px;
         border-radius:  4px;
@@ -167,7 +161,7 @@ align-items: center;
 .button:hover,
 .button:focus{
         color: var(--color-light);
-background-color: var(--color-button);
+        background-color: var(--color-button);
 }
 
 .li-button {
@@ -183,7 +177,7 @@ margin-right: 8px;
         padding: 200px 0; 
         margin-left: auto;
         margin-right: auto;
-       background-color: var(--color-bg-dark);
+        background-color: var(--color-bg-dark);
 }
 
 .hero-title {
@@ -196,7 +190,7 @@ margin-right: 8px;
         margin-left: auto;
         margin-right: auto;
         text-transform: uppercase;
-color: var(--color-light);
+        color: var(--color-light);
 }
 .hero-button {
         display: inline-block;
@@ -208,9 +202,9 @@ color: var(--color-light);
         line-height: 1.875;
         letter-spacing: 0.06em;
         text-align: center;
-background-color: var(--color-brand);
-border: none;
-color: var(--color-light);
+        background-color: var(--color-brand);
+        border: none;
+        color: var(--color-light);
 }
 .hero-button:hover,
 .hero-button:focus {
@@ -244,7 +238,7 @@ color: var(--color-light);
 }
 
 .title-projects {
-       margin-bottom: 4px;
+        margin-bottom: 4px;
         font-size: 18px;
         font-weight: 700;
         line-height: 2;
@@ -283,7 +277,7 @@ color: var(--color-light);
         width: 270px;
 }
 .benefits-items:last-child {
-margin-right:0;
+        margin-right:0;
 }
 .benefits {
     font-size: 14px;
@@ -345,7 +339,7 @@ margin-right:0;
         padding: 30px;
 }
 .persons {
-       margin-bottom: 10px;
+        margin-bottom: 10px;
         font-size: 16px;
         font-weight: 500px;
         line-height: 1.19;
@@ -358,7 +352,7 @@ margin-right:0;
         font-weight: 400px;
         line-height: 1.19;
         letter-spacing: 0.03em;
-    color: var(--color-secondary);
+        color: var(--color-secondary);
 }
 /* Footer */
 
@@ -367,25 +361,23 @@ margin-right:0;
         padding-top: 60px;
         padding-bottom: 60px;
         font-style: normal;
-   background-color: var(--color-bg-dark);
+        background-color: var(--color-bg-dark);
 }
 address {
 font-style: normal;
 margin-top: 20px;
 }
 .footer-logo {
-       
-   font-family: "Raleway", sans-serif;
+        font-family: "Raleway", sans-serif;
         font-size: 26px;
-                font-weight: 700;
-                line-height: 1.19;
-                letter-spacing: 0.03em;
-                text-align: left;
-color: #FFF;
+        font-weight: 700;
+        line-height: 1.19;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: #FFF;
 }
 .footer-logo .accent {
-           
-    color: var(--color-brand);
+        color: var(--color-brand);
 }
 .li-footer-link {
         margin-bottom: 9px;
@@ -393,16 +385,13 @@ color: #FFF;
 .li-footer-link:last-child {
 margin-bottom: 0;
 }
-
-
 .address-link {
-       
-                font-size: 14px;
-                font-weight: 400;
-                line-height: 1.71;
-                letter-spacing: 0.03em;
-                text-align: left;
-color: var(--color-light);
+        font-size: 14px;
+        font-weight: 400;
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: var(--color-light);
 }
 .address-link:hover,
 .address-link:focus {
@@ -411,10 +400,10 @@ color: var(--color-link);
 .footer-link {
         font-size: 14px;
         font-weight: 400;
-                line-height: 1.71;
-                letter-spacing: 0.03em;
-                text-align: left;
-color: rgba(255, 255, 255, 0.60);
+        line-height: 1.71;
+        letter-spacing: 0.03em;
+        text-align: left;
+        color: rgba(255, 255, 255, 0.60);
 }
 
 .footer-link:hover,
